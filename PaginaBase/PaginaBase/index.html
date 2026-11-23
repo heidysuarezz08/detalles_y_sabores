@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles & Sabores | Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <a class="logo" href="index.html">Detalles <span>&</span> Sabores</a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+        <nav class="menu" id="menu">
+            <a class="activo" href="index.html">Inicio</a>
+            <a href="servicio1.html">Decoración de eventos</a>
+            <a href="servicio2.html">Repostería artesanal</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-texto">
+                <p class="etiqueta">Momentos especiales, detalles únicos</p>
+                <h1>Hacemos que tus celebraciones sean inolvidables</h1>
+
+                <p>
+                    Conoce nuestros servicios de decoración de eventos
+                    y repostería artesanal. Cuidamos cada detalle para
+                    acompañarte en tus mejores momentos.
+                </p>
+
+                <a class="boton" href="#servicios">Conocer servicios</a>
+            </div>
+
+            <img
+                src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=85"
+                alt="Mesa preparada para una celebración">
+        </section>
+
+        <section class="seccion" id="servicios">
+            <div class="titulo-seccion">
+                <p class="etiqueta">Lo que ofrecemos</p>
+                <h2>Nuestros servicios</h2>
+                <p>
+                    Dos opciones pensadas para hacer más especiales
+                    tus reuniones y celebraciones.
+                </p>
+            </div>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img
+                        src="https://images.unsplash.com/photo-1530103862676-de8c9deoba0a?auto=format&fit=crop&w=900&q=85"
+                        alt="Decoración de una fiesta">
+
+                    <div class="tarjeta-contenido">
+                        <h3>Decoración de eventos</h3>
+
+                        <p>
+                            Diseñamos ambientes para cumpleaños,
+                            aniversarios y reuniones, con colores
+                            y detalles acordes a tu celebración.
+                        </p>
+
+                        <a class="enlace" href="servicio1.html">
+                            Ver servicio →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="tarjeta">
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+                        alt="Torta decorada">
+
+                    <div class="tarjeta-contenido">
+                        <h3>Repostería artesanal</h3>
+
+                        <p>
+                            Preparamos tortas, cupcakes y postres
+                            por encargo, ideales para compartir
+                            en cualquier ocasión.
+                        </p>
+
+                        <a class="enlace" href="servicio2.html">
+                            Ver servicio →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="llamada">
+            <h2>¿Estás organizando una celebración?</h2>
+
+            <p>
+                Revisa los detalles de cada servicio y elige
+                la opción que mejor se adapte a tu evento.
+            </p>
+
+            <a class="boton boton-claro" href="servicio1.html">
+                Explorar servicios
+            </a>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>© <span id="anio"></span> Detalles & Sabores · Sitio web académico</p>
+    </footer>
+
+</body>
+</html>
